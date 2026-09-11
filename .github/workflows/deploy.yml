@@ -26,7 +26,7 @@ jobs:
         run: npm run build
 
       - name: Sync files via FTP
-        uses: Sebastiandlb/ftp-action@v1.0.0
+        uses: sebastianpopp/ftp-action@releases/v2
         with:
           host: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
