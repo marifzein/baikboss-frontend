@@ -89,7 +89,7 @@ function ScreenHome({ data, onStart, onFaq }) {
         <p className="sub">Mau pindahan apa hari ini?</p>
         <div className="hero">
           <h2>Jasa pindahan aman &amp; rapi</h2>
-          <p>Rumah, kos, warung, dan kantor — tim kami siap sigap.</p>
+          <p>Rumah, kos, warung, dan kantor — baikboss siap dan sigap!</p>
         </div>
         <div className="svc-grid">
           {(data?.layanan || []).map((s) => {
