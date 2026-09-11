@@ -81,7 +81,7 @@ body {
 /* ---------- Screens ---------- */
 .screen {
   flex: 1;
-  padding: 6px 20px 30px;
+  padding: 6px 20px 100px;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -287,7 +287,7 @@ body {
   justify-content: center;
   text-align: center;
   gap: 12px;
-  padding: 30px 24px;
+  padding: 30px 24px 100px;
 }
 .success-icon {
   width: 84px; height: 84px;
@@ -365,13 +365,19 @@ body {
 
 /* ---------- Footer nav ---------- */
 .footer-nav {
-  margin: 0 20px 16px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
   background: var(--purple);
-  border-radius: 16px;
+  border-radius: 16px 16px 0 0;
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
-  box-shadow: var(--shadow);
+  padding: 10px 20px calc(10px + env(safe-area-inset-bottom, 0px));
+  box-shadow: 0 -4px 20px rgba(90, 40, 180, 0.15);
+  z-index: 100;
 }
 .footer-nav button {
   background: none;
