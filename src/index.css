@@ -296,6 +296,51 @@ body {
   padding: 0;
 }
 .promo-card img { width: 100%; height: 120px; object-fit: cover; display: block; }
+
+/* card layanan populer & iklan (tombol reset) */
+.pop-card,
+.ad-card {
+  min-width: 210px;
+  text-align: left;
+  border: 0;
+  background: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--ink);
+  box-shadow: 0 4px 16px rgba(76, 29, 149, 0.06);
+  transition: transform 0.15s ease;
+}
+.pop-card:active,
+.ad-card:active { transform: scale(0.98); }
+.ad-card { min-width: 230px; cursor: pointer; }
+.ad-card .promo-body h4 { font-size: 13.5px; line-height: 1.35; }
+.ad-card .meta { font-size: 11.5px; }
+
+/* gambar iklan: tampil utuh, tidak di-crop */
+.ad-img-wrap {
+  display: grid;
+  place-items: center;
+  background: #fff;
+  padding: 10px;
+  min-height: 120px;
+}
+.ad-img-wrap img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: contain;
+  display: block;
+}
+
+/* halaman detail iklan: gambar full utuh */
+.iklan-detail-img {
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: contain;
+  display: block;
+  background: #fff;
+}
 .promo-body { padding: 13px 15px 15px; }
 .promo-body h4 { margin: 0 0 3px; font-size: 14.5px; font-weight: 600; }
 .promo-body .meta { font-size: 12px; color: var(--muted); margin: 2px 0; }

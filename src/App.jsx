@@ -14,6 +14,7 @@ import Pesanan from './pages/Pesanan.jsx';
 import Pesan from './pages/Pesan.jsx';
 import Profil from './pages/Profil.jsx';
 import Alamat from './pages/Alamat.jsx';
+import DetailIklan from './pages/DetailIklan.jsx';
 
 function RequireAuth({ children }) {
   const token = store.getToken();
@@ -62,6 +63,7 @@ export default function App() {
           <Route path="/pesan" element={<RequireAuth><Pesan /></RequireAuth>} />
           <Route path="/profil" element={<RequireAuth><Profil /></RequireAuth>} />
           <Route path="/alamat" element={<RequireAuth><Alamat /></RequireAuth>} />
+          <Route path="/iklan/:id" element={<RequireAuth><DetailIklan /></RequireAuth>} />
 
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
