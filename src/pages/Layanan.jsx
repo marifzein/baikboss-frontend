@@ -28,7 +28,7 @@ export default function Layanan() {
               <button
                 key={s.key}
                 className="menu-item"
-                onClick={() => (s.to ? navigate(s.to) : Swal.fire({ icon: 'info', title: 'Segera Hadir', text: `Maaf kak, saat ini layanan ${s.name} masih belum tersedia di kotamu.`, confirmButtonText: 'Mengerti' }))}
+                onClick={() => (s.to ? navigate(s.to) : Swal.fire({ icon: 'info', title: 'Segera Hadir', text: `Maaf kak, saat ini layanan ${s.name} masih belum tersedia di kotamu.`, confirmButtonText: 'Oke !' }))}
               >
                 <span className="mi-ico"><Ico size={22} /></span>
                 <span style={{ flex: 1 }}>

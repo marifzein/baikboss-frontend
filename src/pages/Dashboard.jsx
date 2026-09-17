@@ -142,7 +142,7 @@ export default function Dashboard() {
       icon: "info",
       title: "Segera Hadir",
       text: `Maaf kak, saat ini layanan ${name} masih belum tersedia di kotamu.`,
-      confirmButtonText: "Mengerti",
+      confirmButtonText: "Oke !",
     });
 
   const pop = useAutoCarousel(POPULER.length);
