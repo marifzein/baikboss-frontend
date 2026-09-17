@@ -74,7 +74,7 @@ export default function Profil() {
                 icon: "info",
                 title: "Segera Hadir",
                 text: "Fitur Saldo segera hadir!",
-                confirmButtonText: "Oke",
+                confirmButtonText: "Oke !",
               })
             }
           />
@@ -86,7 +86,7 @@ export default function Profil() {
                 icon: "info",
                 title: "Segera Hadir",
                 text: "Fitur Voucher segera hadir!",
-                confirmButtonText: "Oke",
+                confirmButtonText: "Oke !",
               })
             }
           />
@@ -98,7 +98,7 @@ export default function Profil() {
                 icon: "info",
                 title: "Segera Hadir",
                 text: "Fitur Referral segera hadir!",
-                confirmButtonText: "Oke",
+                confirmButtonText: "Oke !",
               })
             }
           />
@@ -112,7 +112,7 @@ export default function Profil() {
             label="Bahasa"
             right={<span className="badge gray">ID</span>}
             onClick={() =>
-              Swal.fire({ icon: "info", title: "Bahasa", text: "Bahasa: Indonesia", confirmButtonText: "Oke" })
+              Swal.fire({ icon: "info", title: "Bahasa", text: "Bahasa: Indonesia", confirmButtonText: "Oke !" })
             }
           />
           <MenuItem
@@ -123,7 +123,7 @@ export default function Profil() {
                 icon: "success",
                 title: "Aman!",
                 text: "Data kamu aman dan hanya dipakai untuk layanan baikboss.",
-                confirmButtonText: "Oke",
+                confirmButtonText: "Oke !",
               })
             }
           />
@@ -135,7 +135,7 @@ export default function Profil() {
                 icon: "question",
                 title: "Pusat Bantuan",
                 text: "Hubungi kami di hello@baikboss.id",
-                confirmButtonText: "Oke",
+                confirmButtonText: "Oke !",
               })
             }
           />
@@ -147,7 +147,7 @@ export default function Profil() {
                 icon: "info",
                 title: "Segera Hadir",
                 text: "Pengaturan segera hadir!",
-                confirmButtonText: "Oke",
+                confirmButtonText: "Oke !",
               })
             }
           />
