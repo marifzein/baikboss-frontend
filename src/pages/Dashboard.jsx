@@ -40,7 +40,7 @@ const PROMOS = [
     meta2: "Motor 3 roda",
     price: "Rp 150rb",
     img: "/img/move-sm.webp",
-    to: null,
+    to: "/bossmove",
   },
 ];
 
